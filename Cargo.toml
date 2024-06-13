@@ -1,0 +1,26 @@
+[package]
+name = "puddler"
+version = "0.5.12"
+edition = "2021"
+
+[dependencies]
+isahc = { version = "1.7.2", features=["json"] }
+app_dirs = { version = "2.5.5", package = "app_dirs2" }
+mpv = { git = "https://github.com/Vernoxvernax/mpv-rs.git" }
+uuid = { version = "1", features = ["v4"] }
+config = { version = "0", features = ["yaml"] }
+tokio = { version = "1", features = ["full"] }
+getch = "0.3.1"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+http = "0"
+colored = "2"
+urlencoding = "2"
+discord-rich-presence = "0.2.3"
+toml = "0"
+regex = "1"
+rpassword = "7"
+dialoguer = "0"
+glob = "0.3.1"
+sysinfo = "0"
